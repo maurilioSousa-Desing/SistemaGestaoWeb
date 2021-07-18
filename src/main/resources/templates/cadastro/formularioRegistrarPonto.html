@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+     <head>
+        <meta charset="utf-8" />
+        <title>Registrar Ponto Funcionario</title>
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<!-- Bibliotecas BootStrap e font Awesome para melhorar a aparencia -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"                  integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">    		
+	    		
+     </head>
+     <body>
+           <div align="center" class="container my-5">
+          <h1>Tela de Registro de Ponto</h1>
+                <div class="card">
+                    <div class="card-body">
+                              <form  action="#">
+                                 <table border="0" cellpadding="10">
+                                     <tr>
+                                         <td>Data Atual</td>
+                                         <td><input type="date" value="00-00-0000" /></td>
+                                     </tr>
+                                     <tr>
+                                         <td>Hora Atual</td>
+                                         <td><input type="time" value="00-00-0000" /></td>
+                                     </tr>
+                                     <tr>
+                                         <td>Tipo Registro</td>
+                                         <td><select>
+                                                  <option>INICIO_TRABALHO</option>
+                                                  <option>TERMINO_TRABALHO</option>
+                                                  <option>INICIO_ALMOCO</option>
+                                                  <option>TERMINO_ALMOCO</option>
+                                                  <option>INICIO_PAUSA</option>
+                                                  <option>TERMINO_PAUSA</option>
+
+                                         </select></td>
+                                     </tr>
+                                     <tr>
+                                         <td>Funcionário</td>
+                                         <td><input type="text" value="" /></td>
+                                     </tr>
+                                 </table>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+     </body>
+</hmtl>
