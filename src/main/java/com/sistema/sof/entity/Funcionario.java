@@ -30,13 +30,6 @@ public class Funcionario {
 	
     
 	public Funcionario() {
-	     ClassLoaderTemplateResolver templateResolver = new ClassLoaderTemplateResolver();
-	     templateResolver.setSuffix(".html");
-	     templateResolver.setPrefix("templates-pdf/");
-	     templateResolver.setTemplateMode(TemplateMode.HTML);
-
-	    //templateEngine = new TemplateEngine();
-	    // templateEngine.setTemplateResolver(templateResolver);
 	}
 
 	//--------------------------------------------//
